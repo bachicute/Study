@@ -1,0 +1,50 @@
+1. create project folder
+	mkdir sampleproject
+
+2. Initialize Git
+
+	git init
+
+3. Add remote repository origin
+
+	git remote add origin https://github.com/adhisivan2020/sampleproject.git
+	git remote -v
+
+4. Fetch from repository
+
+	git fetch origin master
+	git fetch --all (to fetch for all remote repos)
+	git fetch --depth=<depthlevel>
+	git fetch --dry-run
+
+5. Observe folder path, then checkout
+	
+	there is no files
+	git checkout master
+
+6. Remove newly created folder
+
+	cd ..
+	rm -r -f sampleproject
+
+7. Create the folder again and initialize git
+
+	mkdir sampleproject
+	cd sampleproject
+	git init
+	
+8. Add Remote repo origin
+
+	git remote add origin https://github.com/adhisivan2020/sampleproject.git
+	git remote -v
+
+
+9. Run the pull command and observe folder structure
+
+	git pull origin master
+	git pull --rebase remote
+	
+	
+
+
+	

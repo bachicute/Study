@@ -1,0 +1,6 @@
+1. Open one of the API interaction tool
+
+	Open SOAP UI
+	Click on the project
+	Add new GET method to pull Issues event
+	Hit Run and Review results

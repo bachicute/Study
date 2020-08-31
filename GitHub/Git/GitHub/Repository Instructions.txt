@@ -1,0 +1,43 @@
+1. Create new repository for the code
+
+	Goto + Menu
+	Click on New Repository
+	Feed in Repository name, description
+	Select Public or Private
+	Select Initialize this repository with README
+	Select Type of License
+	Click on CreateRepository
+
+2. Modifying README Markdown file
+
+	Add sub-heading
+	Bullets
+	Table
+	
+	Commit the changes to Master branch
+	Review commit history
+
+3. Explore .gitignore file
+
+	Open .gitignore file and check content
+
+4. Explore Repository Settings
+
+	General settings to rename and delete repository
+	Squash Merging (condensing change history for merging branch)
+	Rebase Merging
+
+
+	Manage Access -> Invite Collaborators
+
+	Branches -> Branch Protection Rules - Create new rule
+	Branch pattern - enter *patch*
+
+
+	Webhooks
+
+	
+
+	
+
+

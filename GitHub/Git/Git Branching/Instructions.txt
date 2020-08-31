@@ -1,0 +1,84 @@
+1. Clone remote repository
+
+	git clone <url> sampleproject
+	cd sampleproject
+	git branch -v
+	
+2. Create new branch
+
+	git branch myworkbranch
+	git branch -v
+
+	git checkout -b myworkbranch - create and checkout
+
+3. Move to newly created branch
+
+	git checkout myworkbench
+	make change to READMe.md file
+	git status
+	git commit -a -m "branch commits"
+	
+4. Merge commit to Master
+
+	git checkout master
+	cat README.md
+	git merge myworkbranch
+
+5. Remove newly created branch
+	
+	git branch -d myworkbranch
+	git branch -v
+
+	git push origin --delete <branchname>
+
+6. Pushing new branch to remote repo
+
+	git branch feature1
+	git push origin feature1
+	git push -d origin feature1
+
+7. Solving Merge conflicts
+
+	create new branch or checkout to existing branch
+	modify one of the file
+	modify the same file in master branch also
+	modification should be on the same line
+	
+	git checkout master
+	git merge feature1
+	(should show merge failure)
+
+	setup the merge tool if not already exists
+	git config --global merge.tool vimdiff
+
+	cat settings.gradle
+
+	git mergetool
+
+	after fix
+	git commit
+
+8. Rebasing commits from another branch
+
+	git checkout <feature-branch>
+	git rebase master
+	git checkout master
+	git merge <feature-branch>
+
+	Learn about --no-ff
+
+9. Stashing changes in feature branch
+
+	git checkout feature1
+	change some file
+	git add .
+	git stash
+	git status
+	git stash list
+	git stash apply
+
+	create branch from Stash
+	git stash branch <branchname>
+
+10. Cleaning folders
+	git clean -d -n

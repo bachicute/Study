@@ -1,0 +1,15 @@
+git init
+git status
+git add
+git commit -m "Commit Message"
+git log - Show all commit messages
+git show - last command and the diff of all changes to commit
+git ls-files - Tracked files for the changes or modification - only commited files will be displayed/tracked by git
+git commit -a - first add newly modified files to the staging area and then do commit, No need of using "git add ." command for modified files
+git commit -am "Commit Message" - first add newly modified files to the staging area and then do commit, No need of using "git add ." command for modified files
+Add some date to backed out to README.md
+add the file to repo
+git reset HEAD README.md - reset the last staged files in repo
+git checkout -- README.md - If you dont want to save the changes made to the file and need last commit data
+git log --oneline --graph --decorate --all    - Display log data in one line with * graph and decorate (which commit is part of which branches) and other labels within git repository and --all for all commits history
+

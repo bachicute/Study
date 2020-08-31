@@ -1,0 +1,3 @@
+04eeb428558edbf1275bac904023e0c1b5951b93
+
+mvn sonar:sonar -Dsonar.projectKey=Calculator -Dsonar.host.url=http://localhost:9000 -Dsonar.login=04eeb428558edbf1275bac904023e0c1b5951b93

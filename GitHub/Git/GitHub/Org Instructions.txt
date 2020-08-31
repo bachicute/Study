@@ -1,0 +1,38 @@
+1. Create new organization with Free plan
+
+	From main page click on create organization
+	Select Free account
+	Enter organiation account name, contact email
+	Select My personal account
+	Click on signup
+
+
+2. Add Organization Members
+
+	add already existing GitHub account into organization
+	Click submit
+
+3. Edit invitation to change role (if required)
+
+	Under Organization --> People
+	Edit Invitiation to change role
+	Owner, Member
+
+4. Explore Organization Settings
+
+	Select Organization from Profile Settings
+	Select Settings
+	Profile Page -> General settings
+	Member privileges -> when new member created - defaults
+	Security Page -> 2FActor authentication, SSH Certificate
+	
+5. Create a new team
+
+	Teams tab
+	Click on create team
+	Fill in information
+	Create Team
+
+6. Delete Team and Org
+
+	Goto Settings and remove Team and Org

@@ -1,0 +1,57 @@
+1. Forking repository
+
+	Goto rupesh13jan user repository
+	Fork on KarateAPI to create new copy remote
+	Click on Fork count to look at Fork Tree
+	Remove the Forked REpository
+	Check the Fork count again
+
+2. Cloning repository
+
+	getback to home repository
+	click on sampleproject repository
+	click on Clone or download
+	select HTTPS or SSH link
+
+3. Cloning directly into local machine
+	
+	cd c:\trainings
+	rm -r -f c:\traininghub	
+	mkdir traininghub
+	cd traininghub
+	git clone <https url>
+	
+4. Trying with SSH protocol
+
+	remove stored SSH key from GitHub
+	copy the SSH url from GitHub
+	open Git Bash
+	type git clone <ssh url>	
+	expect an error
+	Add public key back to GitHub
+	try git clone <ssh url>
+	it should work
+
+	ssh-keygen --help
+
+5. Verify newly created clone project
+
+	cd sampleproject
+	git remote
+	git remote -v (or) --verbose (explicit)
+	git branch (or) with -v
+	find .git/objects
+	git log
+	git log --pretty=oneline --since=2.weeks --author=adhisivan2020
+
+
+6. Implicitly Adding Remote origin
+
+	git init
+	git remote add origin <git url>
+	git remote -v
+	git fetch origin
+	git checkout master
+
+
+

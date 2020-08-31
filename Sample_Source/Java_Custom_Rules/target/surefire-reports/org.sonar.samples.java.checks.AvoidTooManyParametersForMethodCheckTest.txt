@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.sonar.samples.java.checks.AvoidTooManyParametersForMethodCheckTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.023 s <<< FAILURE! - in org.sonar.samples.java.checks.AvoidTooManyParametersForMethodCheckTest
+org.sonar.samples.java.checks.AvoidTooManyParametersForMethodCheckTest.verify  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.AssertionError: No issue raised. At least one issue expected
+	at org.sonar.samples.java.checks.AvoidTooManyParametersForMethodCheckTest.verify(AvoidTooManyParametersForMethodCheckTest.java:22)
+

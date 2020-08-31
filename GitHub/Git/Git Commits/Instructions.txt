@@ -1,0 +1,22 @@
+1. Modifying and commiting changes
+
+	Modify README.md file
+	git status (or) with -s 
+	git diff (or) with --staged
+	git commit -a -m "commit message" - skipping stagging
+	
+2. Unstage changes
+
+	git reset HEAD -- README.md
+	git config --global alias.unstage 'reset HEAD --'
+	git unstage README.md
+	git checkout -- README.md
+	
+3. Revert Commits
+
+	git commit --amend
+	git log --oneline
+	git revert --no-edit <commitid> 
+	
+
+

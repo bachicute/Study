@@ -1,0 +1,18 @@
+1. Setup webhooks in GitHub
+
+	Goto Sampleproject Repository
+	Settings
+	Click on Webhooks
+	add URL http://52.66.165.55:8080/github-webhook/
+	Save
+
+2. Create Sample Free Style Job in Jenkins
+	
+	Add sampleproject.git repo path
+	Select hook trigger
+	Add Build steps for Gradle
+
+3. Change file in GitHub and Commit
+
+	Make changes to one of the file and commit
+	Goto Project view in Jenkins and checkout new build

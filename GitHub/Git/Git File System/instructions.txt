@@ -1,0 +1,48 @@
+1. Create new folder for local repo
+
+	cd C:\Training\Git
+	mkdir trainingrepo
+	cd trainingrepo
+	
+
+2. Initialize Repo and Look inside the folder (use git bash terminal)
+	
+	git init
+	find .
+	find .git/objects
+
+3. Create a simple file and checkout object folder
+
+	echo "sample content" > test.txt
+	git add test.txt
+	find .git/objects
+	git cat-file -p <hash>
+	git ls-files -s
+	git write-tree
+	find .git/objects		
+
+4. Creating subdirectory and moving file
+	
+	pwd
+	mkdir subdir
+	cp test.txt subdir/
+	git add .
+	git write-tree
+	git cat-file -p <hash>
+	find .git/objects
+
+5. Commit file and check object repo
+
+	git commit
+	find .git/objects
+
+
+6. Create a Tag version and check object repo
+
+	git tag -m "Tag version 1.0" V1.0
+	git tag
+	find .git/objects
+
+
+	
+	

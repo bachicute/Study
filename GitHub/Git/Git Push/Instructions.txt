@@ -1,0 +1,37 @@
+1. Clone remote repository
+
+	git clone https://github.com/adhisivan2020/sampleproject.git
+
+2. Make change to one of the file
+
+	vi README.md
+	git status
+
+3. Add README.md to staging
+
+	git add .
+
+4. Commit changes to local repo
+
+	git commit -m "README file modified for push verification"
+
+
+5. Push changes to remote repo
+
+	git push origin master
+
+
+6. Goto Remote repo and verify history detail for README.md file
+
+	
+
+Push command variations:
+
+git push origin --tags
+git push origin --all
+
+
+--force - used for ignoring remote repo changes after the original pull - to be avoided in most of the scenarios
+
+
+

@@ -1,0 +1,46 @@
+1. Getting Git Installation Package
+
+   https://git-scm.com/downloads
+
+2. Download package for your operating system
+
+3. Follow instruction and install the package
+
+4. After installation, goto system environment variable to check PATH variable - Git bin path should be added
+
+5. Check Git installation and version
+	git --version
+	git help <verb>
+	git <verb> --help
+
+6. Git configuration file
+	Installation path\etc
+	user folder\.gitconfig
+	repo path\.git\config
+
+7. Verify configuration in place
+	git config -l
+	git config --list --show-origin
+
+8. Setting up your identify at global level
+
+	git config --global user.name <name>
+	git config --global user.email <emailaddress>
+
+9. Setting up default editor for Git
+	git config --global core.editor "'C:\WINDOWS\system32\notepad.exe'"
+
+10. Get specific setting by name
+	git config user.name
+
+11. Setting shortcuts and removing settings
+
+	git config --global alias.st status
+	git st
+	git config --global --unset alias.st
+
+	git config --global alias.last "log -1 HEAD"
+	git last
+
+	git config --global commit.template "'path of commit template'"
+	opens when git commit called

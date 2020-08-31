@@ -1,0 +1,16 @@
+Error while pulling latest code from remote repo - Fatal refusing to merge unrelated histories
+
+Solution: git pull origin master --allow-unrelated-histories
+
+Unstage already added files
+
+Solution: git reset filename/dirname
+
+Edit the last committed message
+
+Solution: git commit --amend
+
+Discard already made changes
+
+Solution: git checkout -- <filename>
+

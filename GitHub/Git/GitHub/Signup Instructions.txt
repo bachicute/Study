@@ -1,0 +1,12 @@
+1. Get into GitHub site
+
+	browse to www.github.com
+	Signup with email id to free account
+	Verify and activate account
+
+2. Signin into GitHub
+
+	browse to www.github.com
+	signin using your userid and password
+	
+

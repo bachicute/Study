@@ -1,0 +1,27 @@
+1. Check for current Tags in the repository
+	
+	git tag
+	git tag -l
+	git tag -l "v*"
+
+2. Create a new tag in the repository
+
+	git tag -a v1.0 -m "Version 1.0" (or) git tag v1.0
+	git tag -l
+	git show v1.0
+
+3. Pushing Tags to remote repo
+
+	git push origin v1.0
+	git push origin --tags (to push all tags)
+
+4. Removing existing tags local and remote
+
+	git tag -d v1.0
+	git push origin :refs/tags/v1.0
+
+5. Checking out to a Tag Version (*for build purpose only)
+	
+	git checkout v1.0
+
+
