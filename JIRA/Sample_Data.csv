@@ -1,0 +1,15 @@
+Summary,Issue Type,Description,Custom field (Epic Link),Custom field (Story Points)
+Pre-Analysis,Story,Pre-Analysis,DSP-25,8
+DMT,Story,Pre-Analysis,DSP-25,5
+Analysis,Story,Pre-Analysis,DSP-25,8
+Post-Analysis,Story,Pre-Analysis,DSP-25,5
+Development,Story,Pre-Analysis,DSP-25,8
+QA,Story,Pre-Analysis,DSP-25,8
+Pre-Prod,Story,Pre-Analysis,DSP-25,5
+Pre-Analysis,Story,Pre-Analysis,DSP-26,8
+DMT,Story,Pre-Analysis,DSP-26,5
+Analysis,Story,Pre-Analysis,DSP-26,8
+Post-Analysis,Story,Pre-Analysis,DSP-26,5
+Development,Story,Pre-Analysis,DSP-26,8
+QA,Story,Pre-Analysis,DSP-26,8
+Pre-Prod,Story,Pre-Analysis,DSP-26,5
